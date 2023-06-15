@@ -1,0 +1,167 @@
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+img {
+  height: 200px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.header,
+.footer {
+  background: #1f2937;
+  color: #f9faf8;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 300px 0 300px;
+}
+
+.title-main {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.title-sub,
+.right-links {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.right-links {
+  display: flex;
+  gap: 36px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  background: #1f2937;
+  color: #f9faf8;
+  padding: 50px 300px 50px 300px;
+}
+
+.text-title {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 12px;
+}
+
+.title-button {
+  width: 80px;
+  height: 20px;
+  align-self: start;
+  background-color: #3882f6;
+  border-radius: 4px;
+  border: none;
+  color: #f9faf8;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  gap: 12px;
+  padding-top: 20px;
+  font-size: 24px;
+}
+
+.cards {
+  padding: 20px;
+  display: flex;
+}
+
+.card {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  gap: 8px;
+}
+
+.card-img {
+  border: solid #666;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background: #e5e7eb;
+  align-self: normal;
+  padding: 80px 400px 80px 400px;
+  gap: 12px;
+}
+
+.quote-main {
+  align-self: center;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.signup {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.signup-container {
+  display: flex;
+  gap: 200px;
+  padding: 40px;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+
+.signup-text {
+  color: #f9faf8;
+  font-weight: light;
+  font-size: 18px;
+}
+
+.signup-button {
+  width: 82px;
+  height: 22px;
+  background-color: #3882f6;
+  border-radius: 4px;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  align-self: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 20px 0 20px 0;
+  font-weight: 100;
+}
